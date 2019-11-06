@@ -24,7 +24,6 @@
 		8EAFD1B42008CE56005498D4 /* MediaVideoProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFD1AA2008CE56005498D4 /* MediaVideoProcessor.swift */; };
 		8EAFD1B62008CE56005498D4 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFD1AD2008CE56005498D4 /* Assets.swift */; };
 		8EAFD1B72008CE56005498D4 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFD1AE2008CE56005498D4 /* Images.swift */; };
-		8EAFD1B82008CE56005498D4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EAFD1AF2008CE56005498D4 /* Info.plist */; };
 		8ED16CE7200E0360009AA4B9 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 8ED16CE6200E0360009AA4B9 /* CHANGELOG.md */; };
 		8EDE62292008D7BB00E0F8A5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8EDE62262008D7BB00E0F8A5 /* LICENSE */; };
 		8EDE622A2008D7BB00E0F8A5 /* MediaWatermark.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8EDE62272008D7BB00E0F8A5 /* MediaWatermark.podspec */; };
@@ -52,7 +51,6 @@
 		8EAFD1AA2008CE56005498D4 /* MediaVideoProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaVideoProcessor.swift; sourceTree = "<group>"; };
 		8EAFD1AD2008CE56005498D4 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		8EAFD1AE2008CE56005498D4 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
-		8EAFD1AF2008CE56005498D4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ED16CE6200E0360009AA4B9 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		8EDE62262008D7BB00E0F8A5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8EDE62272008D7BB00E0F8A5 /* MediaWatermark.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MediaWatermark.podspec; sourceTree = "<group>"; };
@@ -121,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				8EAFD1A42008CE56005498D4 /* Classes */,
-				8EAFD1AF2008CE56005498D4 /* Info.plist */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -247,7 +244,6 @@
 			files = (
 				8EDE62292008D7BB00E0F8A5 /* LICENSE in Resources */,
 				8ED16CE7200E0360009AA4B9 /* CHANGELOG.md in Resources */,
-				8EAFD1B82008CE56005498D4 /* Info.plist in Resources */,
 				8EDE622B2008D7BB00E0F8A5 /* README.md in Resources */,
 				8EDE622A2008D7BB00E0F8A5 /* MediaWatermark.podspec in Resources */,
 			);
