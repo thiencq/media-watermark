@@ -54,7 +54,11 @@ extension MediaProcessor {
         parentLayer.addSublayer(optionalLayer)
         
         let videoComposition = AVMutableVideoComposition()
-        videoComposition.frameDuration = CMTimeMake(value: kMediaContentTimeValue, timescale: kMediaContentTimeScale)
+        var frameDuration = CMTimeMake(value: kMediaContentTimeValue, timescale: kMediaContentTimeScale)
+        if let videoFrameDuration = clipVideoTrack?.minFrameDuration, videoFrameDuration != CMTime.invalid {
+            frameDuration = videoFrameDuration
+        }
+        videoComposition.frameDuration = frameDuration
         videoComposition.renderSize = sizeOfVideo
         videoComposition.animationTool = AVVideoCompositionCoreAnimationTool(postProcessingAsVideoLayer: videoLayer, in: parentLayer)
         
